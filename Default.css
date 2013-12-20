@@ -1,0 +1,353 @@
+﻿/* CSS RESET */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section
+{
+    display: block;
+}
+
+body
+{
+    line-height: 1;
+}
+
+ol, ul
+{
+    list-style: none;
+}
+
+blockquote, q
+{
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after
+{
+    content: '';
+    content: none;
+}
+
+table
+{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* MAIN STYLES */
+body
+{
+    margin: 0;
+    font-size: 69%;
+    font-family: Verdana, Geneva, sans-serif;
+    background-color: #fff;
+    text-align: left;
+    color: #222;
+    padding: 15px;
+}
+
+h1 {
+    margin: 0 0 0.5em 0;
+    font-size: 240%;
+    color: #6cacc1;
+}
+
+h2 {
+    margin: 0 0 1em 0;
+    font-size: 180%;
+    color: #6cacc1;
+}
+
+.clear
+{
+    clear: both;
+}
+
+/* FORM STYLES */
+.fieldset-container .fieldset-half
+{
+    float: left;
+    width: 49%;
+}
+
+.fieldset-container .fieldset-half + .fieldset-half
+{
+    margin-left: 2%;
+}
+
+fieldset
+{
+    background-color: #e9f5f5;
+    border: 1px solid #adadad;
+    padding: 7px;
+    padding-top: 0;
+    margin-bottom: 10px;
+}
+
+legend
+{
+    border: 1px dotted #666666;
+    background-color: #aedae9;
+    color: #000000;
+    padding: 2px 4px 2px 4px;
+    text-align: left;
+}
+
+form
+{
+    margin: 0;
+}
+
+.formRow
+{
+    margin: 0;
+    float: left;
+    clear: both;
+    width: 100%;
+    padding-bottom: 5px;
+}
+
+.formRow input[type="text"],
+.formRow input[type="password"],
+.formRow select,
+.formRow textarea
+{
+    float: left;
+    margin-top: 0;
+    margin-bottom: 2px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    padding: 3px;
+    width: 220px;
+}
+
+.formRow input[type="text"]:focus,
+.formRow input[type="password"]:focus,
+.formRow select:focus,
+.formRow textarea:focus
+{
+    border: 1px solid #666;
+    background-color: #ffd;
+}
+
+.formRow input[type="checkbox"],
+.formRow input[type="radio"],
+.formRow input[type="file"]
+{
+    float: left;
+    margin-top: 0;
+    margin-bottom: 2px;
+    margin-right: 5px;
+    border: 1px solid #fff;
+}
+
+.formRow input[type="file"]
+{
+    background-color: #fff;
+}
+
+.formRow input.small
+{
+    width: 55px;
+}
+
+.formRow input.watermark
+{
+    color: #cccccc;
+}
+
+.formRow select
+{
+    width: 228px;
+}
+
+.formRow select.autoWidth
+{
+    width: auto;
+}
+
+.formRow textarea
+{
+    clear: left;
+    float: left;
+    display: block;
+    width: 95%;
+    margin-top: 10px;
+    height: 140px;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.formRow textarea.large
+{
+    height: 300px;
+}
+
+.formRow label
+{
+    float: left;
+    width: 250px;
+    font-size: 100%;
+    padding: 3px;
+    text-align: left;
+}
+
+.formRow label.autoWidth
+{
+    float: left;
+    width: auto;
+    padding: 3px;
+}
+
+.formRowWithBorder
+{
+    margin: 0 0 10px 0;
+    border-bottom: 1px dotted #bbbbbb;
+    float: left;
+    clear: both;
+    width: 100%;
+    padding-bottom: 5px;
+}
+
+.formRowWithBorder input[type="text"],
+.formRowWithBorder input[type="password"],
+.formRowWithBorder select,
+.formRowWithBorder textarea
+{
+    float: left;
+    margin-top: 0;
+    margin-bottom: 2px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    padding: 3px;
+    width: 220px;
+}
+
+.formRowWithBorder input[type="text"]:focus,
+.formRowWithBorder input[type="password"]:focus,
+.formRowWithBorder select:focus,
+.formRowWithBorder textarea:focus
+{
+    border: 1px solid #666;
+    background-color: #ffd;
+}
+
+.formRowWithBorder input[type="checkbox"],
+.formRowWithBorder input[type="radio"],
+.formRowWithBorder input[type="file"]
+{
+    float: left;
+    margin-top: 0;
+    margin-bottom: 2px;
+    margin-right: 5px;
+    border: 1px solid #fff;
+}
+
+.formRowWithBorder input[type="file"]
+{
+    background-color: #fff;
+}
+
+.formRowWithBorder input.small
+{
+    width: 55px;
+}
+
+.formRowWithBorder input.watermark
+{
+    color: #cccccc;
+}
+
+.formRowWithBorder select
+{
+    width: 228px;
+}
+
+.formRowWithBorder select.autoWidth
+{
+    width: auto;
+}
+
+.formRowWithBorder textarea
+{
+    clear: left;
+    float: left;
+    display: block;
+    width: 95%;
+    margin-top: 10px;
+    height: 140px;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.formRowWithBorder textarea.large
+{
+    height: 300px;
+}
+
+.formRowWithBorder label
+{
+    float: left;
+    width: 250px;
+    font-size: 100%;
+    padding: 3px;
+    text-align: left;
+}
+
+.formRowWithBorder label.autoWidth
+{
+    float: left;
+    width: auto;
+    padding: 3px;
+}
+
+.formRowWithBorder:last-child
+{
+    border-bottom: none;
+    margin: 0;
+}
+
+/* BUTTON TOOLBAR */
+.buttontoolbar {
+    clear: none;
+    float: none;
+    width: 100%;
+    color: #000000;
+    border-top: 1px solid #999999;
+    border-bottom: 1px solid #999999;
+    background-color: #aedae9;
+    padding-top: 2px;
+    padding-bottom: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.buttontoolbar a:first-child {
+    margin-left: 10px;
+}
+
+.buttontoolbar a {
+    font-family: Verdana, Geneva, sans-serif;
+    margin: 0;
+    padding: 0;
+    float: left;
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+    text-align: left;
+    width: auto;
+    background-repeat: no-repeat;
+    color: #000000;
+    border-right: 1px solid #000000;
+    margin-left: 5px;
+    padding-right: 5px;
+    padding-top: 3px;
+    text-decoration: none;
+    height: 15px;
+}
