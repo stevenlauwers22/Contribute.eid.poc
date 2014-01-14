@@ -2,7 +2,7 @@
 
 namespace Contribute.eid.poc
 {
-    public partial class Default : Page
+    public partial class DefaultMetIframe : Page
     {
     }
 }
