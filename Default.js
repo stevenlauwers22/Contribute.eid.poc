@@ -4,8 +4,8 @@ Contribute.eid = Contribute.eid || {};
 Contribute.eid.uitlezen = function() {
 //    alert('TODO: uitlezen');
 	var attributes = {
-            code :'be.fedict.eid.applet.Applet',
-            archive :'eid-applet-package-1.1.3.jar',
+            code :'be.fedict.eid.applet.Applet.class',
+            archive :'applet/eid-applet-package-1.1.3.jar',
             width :600,
             height :300
         };
