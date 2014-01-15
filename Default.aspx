@@ -10,8 +10,8 @@
         <meta http-equiv="content-type" content="text/xhtml; charset=iso-8859-1" />
         <meta http-equiv="imagetoolbar" content="no" />
         <link rel="stylesheet" href="Default.css" />
-        <script type="text/javascript" src="Default.js"></script>
 	<script type="text/javascript" src="https://www.java.com/js/deployJava.js"></script>
+        <script type="text/javascript" src="Default.js"></script>
 
     </head>
     
