@@ -83,7 +83,7 @@
             </fieldset>
             
             <p class="buttontoolbar">
-                <a href="#" onclick="Contribute.eid.uitlezen();">Uitlezen e-ID</a>
+                <a href="#" onclick="Contribute.eid.uitlezen('<%= HttpContext.Current.Session.SessionID %>');">Uitlezen e-ID</a>
                 <a href="#" onclick="Contribute.eid.uitlezenMetCode();">Uitlezen e-ID met code</a>
             </p>
         </form>

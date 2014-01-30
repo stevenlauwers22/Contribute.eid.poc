@@ -1,7 +1,7 @@
 ﻿Contribute = window.Contribute || {};
 Contribute.eid = Contribute.eid || {};
 
-Contribute.eid.uitlezen = function() {
+Contribute.eid.uitlezen = function(sessionId) {
 	var attributes = {
         code :'be.fedict.eid.applet.Applet.class',
         archive: '/applet/eid-applet-package-1.1.3.jar',
@@ -9,9 +9,10 @@ Contribute.eid.uitlezen = function() {
         height :300
     };
 
+    alert(sessionId);
     var parameters = {
         TargetPage :'https://tools.contribute.be/ingpoc/showEidData',
-        AppletService :'https://tools.contribute.be/ingpoc/applet-service;jsessionid=<%=session.getId()%>',
+        AppletService :'https://tools.contribute.be/ingpoc/applet-service;jsessionid=' + sessionId,
         BackgroundColor :'#ffffff',
         Language : 'en',
         HideDetailsButton : true
