@@ -9,7 +9,6 @@ Contribute.eid.uitlezen = function(sessionId) {
         height :300
     };
 
-    alert(sessionId);
     var parameters = {
         TargetPage :'https://tools.contribute.be/ingpoc/showEidData',
         AppletService :'https://tools.contribute.be/ingpoc/applet-service;jsessionid=' + sessionId,
