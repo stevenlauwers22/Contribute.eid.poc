@@ -10,7 +10,7 @@
         <meta http-equiv="content-type" content="text/xhtml; charset=iso-8859-1" />
         <meta http-equiv="imagetoolbar" content="no" />
         <link rel="stylesheet" href="Default.css" />
-	<script type="text/javascript" src="https://www.java.com/js/deployJava.js"></script>
+	    <script type="text/javascript" src="https://www.java.com/js/deployJava.js"></script>
         <script type="text/javascript" src="Default.js"></script>
 
     </head>
@@ -84,7 +84,7 @@
             
             <p class="buttontoolbar">
                 <a href="#" onclick="Contribute.eid.uitlezen('<%= HttpContext.Current.Session.SessionID %>');">Uitlezen e-ID</a>
-                <a href="#" onclick="Contribute.eid.uitlezenMetCode();">Uitlezen e-ID met code</a>
+                <a href="#" onclick="Contribute.eid.uitlezenMetCode('<%= HttpContext.Current.Session.SessionID %>');">Uitlezen e-ID met code</a>
             </p>
         </form>
 
