@@ -25,8 +25,8 @@ Contribute.eid.uitlezenMetCode = function (sessionId) {
     var attributes = {
         code: 'be.fedict.eid.applet.Applet.class',
         archive: 'eid-applet-package-1.1.3.jar',
-		width: 1,
-		height: 1
+        width: 600,
+        height: 300
 	};
 
 	var parameters = {
