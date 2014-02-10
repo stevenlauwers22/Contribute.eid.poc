@@ -57,11 +57,6 @@
                 </p>
 
                 <p class="formRowWithBorder">
-                    <label for="">Nationaliteit</label>
-                    <asp:TextBox ID="NationaliteitTextBox" ClientIDMode="Static" runat="server"></asp:TextBox>
-                </p>
-
-                <p class="formRowWithBorder">
                     <label for="">Geboorteplaats</label>
                     <asp:TextBox ID="GeboorteplaatsTextBox" ClientIDMode="Static" runat="server"></asp:TextBox>
                 </p>
@@ -74,11 +69,6 @@
                 <p class="formRowWithBorder">
                     <label for="">Geslacht</label>
                     <asp:TextBox ID="GeslachtTextBox" ClientIDMode="Static" runat="server"></asp:TextBox>
-                </p>
-
-                <p class="formRowWithBorder">
-                    <label for="">Land</label>
-                    <asp:TextBox ID="LandTextBox" ClientIDMode="Static" runat="server"></asp:TextBox>
                 </p>
             </fieldset>
             

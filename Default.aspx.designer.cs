@@ -76,15 +76,6 @@ namespace Contribute.eid.poc {
         protected global::System.Web.UI.WebControls.TextBox GemeenteTextBox;
         
         /// <summary>
-        /// NationaliteitTextBox control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox NationaliteitTextBox;
-        
-        /// <summary>
         /// GeboorteplaatsTextBox control.
         /// </summary>
         /// <remarks>
@@ -110,14 +101,5 @@ namespace Contribute.eid.poc {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox GeslachtTextBox;
-        
-        /// <summary>
-        /// LandTextBox control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox LandTextBox;
     }
 }
