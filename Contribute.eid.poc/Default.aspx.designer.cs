@@ -22,6 +22,15 @@ namespace Contribute.eid.poc {
         protected global::System.Web.UI.HtmlControls.HtmlForm Form;
         
         /// <summary>
+        /// AchternaamLabel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label AchternaamLabel;
+        
+        /// <summary>
         /// AchternaamTextBox control.
         /// </summary>
         /// <remarks>
@@ -29,6 +38,15 @@ namespace Contribute.eid.poc {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox AchternaamTextBox;
+        
+        /// <summary>
+        /// VoornaamLabel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label VoornaamLabel;
         
         /// <summary>
         /// VoornaamTextBox control.
@@ -40,6 +58,15 @@ namespace Contribute.eid.poc {
         protected global::System.Web.UI.WebControls.TextBox VoornaamTextBox;
         
         /// <summary>
+        /// RijksregisternummerLabel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label RijksregisternummerLabel;
+        
+        /// <summary>
         /// RijksregisternummerTextBox control.
         /// </summary>
         /// <remarks>
@@ -47,6 +74,15 @@ namespace Contribute.eid.poc {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox RijksregisternummerTextBox;
+        
+        /// <summary>
+        /// AdresLabel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label AdresLabel;
         
         /// <summary>
         /// AdresTextBox control.
@@ -58,6 +94,15 @@ namespace Contribute.eid.poc {
         protected global::System.Web.UI.WebControls.TextBox AdresTextBox;
         
         /// <summary>
+        /// PostcodeLabel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label PostcodeLabel;
+        
+        /// <summary>
         /// PostcodeTextBox control.
         /// </summary>
         /// <remarks>
@@ -65,6 +110,15 @@ namespace Contribute.eid.poc {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox PostcodeTextBox;
+        
+        /// <summary>
+        /// GemeenteLabel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label GemeenteLabel;
         
         /// <summary>
         /// GemeenteTextBox control.
@@ -76,6 +130,15 @@ namespace Contribute.eid.poc {
         protected global::System.Web.UI.WebControls.TextBox GemeenteTextBox;
         
         /// <summary>
+        /// GeboorteplaatsLabel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label GeboorteplaatsLabel;
+        
+        /// <summary>
         /// GeboorteplaatsTextBox control.
         /// </summary>
         /// <remarks>
@@ -85,6 +148,15 @@ namespace Contribute.eid.poc {
         protected global::System.Web.UI.WebControls.TextBox GeboorteplaatsTextBox;
         
         /// <summary>
+        /// GeboortedatumLabel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label GeboortedatumLabel;
+        
+        /// <summary>
         /// GeboortedatumTextBox control.
         /// </summary>
         /// <remarks>
@@ -92,6 +164,15 @@ namespace Contribute.eid.poc {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox GeboortedatumTextBox;
+        
+        /// <summary>
+        /// GeslachtLabel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label GeslachtLabel;
         
         /// <summary>
         /// GeslachtTextBox control.

@@ -39,7 +39,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>packages\Newtonsoft.Json.6.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\packages\Newtonsoft.Json.6.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -68,7 +68,13 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="EidAddressInfoDTO.cs" />
+    <Compile Include="EidCardInfoDTO.cs" />
+    <Compile Include="EidIdentityInfoDTO.cs" />
+    <Compile Include="EidInfoConverter.cs" />
+    <Compile Include="EidInfoDTO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="EidDateTimeConverter.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />

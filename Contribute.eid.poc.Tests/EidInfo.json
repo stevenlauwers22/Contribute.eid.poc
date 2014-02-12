@@ -1,0 +1,23 @@
+﻿{
+    "identity": {
+        "dateOfBirth": "28/11/1984",
+        "middleName": "A",
+        "placeOfBirth": "Kontich",
+        "name": "Vermeulen",
+        "gender": "MALE",
+        "firstName": "Joske Sjarel",
+        "nationalNumber": "70010127547"
+    },
+    "address": {
+        "zip": "2550",
+        "streetAndNumber": "Veldkant 33A",
+        "municipality": "Kontich"
+    },
+    "card": {
+        "cardValidityDateEnd": "01/01/2015",
+        "cardDeliveryMunicipality": "Kontich",
+        "chipNumber": "1234567890ABCDEF1234567890ABCDEF",
+        "cardValidityDateBegin": "01/01/2010",
+        "cardNumber": "123456789012"
+    }
+}
