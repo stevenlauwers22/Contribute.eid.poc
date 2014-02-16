@@ -10,7 +10,7 @@ Contribute.eid.uitlezen = function(sessionId) {
     };
 
     var parameters = {
-        TargetPage: 'https://qfbam.cronos.be',
+        TargetPage: 'https://tools.contribute.be/ingpoc/postJson',
         AppletService: 'https://tools.contribute.be/ingpoc/applet-service;jsessionid=' + sessionId,
         BackgroundColor: '#ffffff',
         Language: 'en',
@@ -30,7 +30,7 @@ Contribute.eid.uitlezenMetCode = function (sessionId) {
 	};
 
 	var parameters = {
-		TargetPage: 'https://qfbam.cronos.be',
+		TargetPage: 'https://tools.contribute.be/ingpoc/postJson',
 		AppletService: 'https://tools.contribute.be/ingpoc/authentication-service;jsessionid=' + sessionId,
 		BackgroundColor: '#ffffff',
 		Language: 'en',
