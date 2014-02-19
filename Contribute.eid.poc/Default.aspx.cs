@@ -1,5 +1,4 @@
 ﻿using System;
-using System.IO;
 using System.Web.UI;
 
 namespace Contribute.eid.poc
@@ -10,12 +9,9 @@ namespace Contribute.eid.poc
         {
             if (Request.RequestType == "POST")
             {
-                using (var streamReader = new StreamReader(Request.InputStream))
-                {
-                    var eidInfoJson = streamReader.ReadToEnd();
-                    var eidInfo = new EidInfoConverter().Convert(eidInfoJson);
-                    SetEidInfo(eidInfo);
-                }
+                var eidInfoJson = Request.Form["eidData"];
+                var eidInfo = new EidInfoConverter().Convert(eidInfoJson);
+                SetEidInfo(eidInfo);
             }
         }
 
@@ -25,7 +21,8 @@ namespace Contribute.eid.poc
             VoornaamTextBox.Text = eidInfo.Identity.FirstName + " " + eidInfo.Identity.MiddleName;
             RijksregisternummerTextBox.Text = eidInfo.Identity.NationalNumber;
             AdresTextBox.Text = eidInfo.Address.StreetAndNumber;
-            PostcodeTextBox.Text = eidInfo.Address.Zip + " " + eidInfo.Address.Municipality;
+            PostcodeTextBox.Text = eidInfo.Address.Zip;
+            GemeenteTextBox.Text = eidInfo.Address.Municipality;
             GeboorteplaatsTextBox.Text = eidInfo.Identity.PlaceOfBirth;
             GeboortedatumTextBox.Text = eidInfo.Identity.DateOfBirth.ToShortDateString();
             GeslachtTextBox.Text = eidInfo.Identity.Gender;
